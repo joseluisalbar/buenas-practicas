@@ -14,22 +14,20 @@ input.onButtonPressed(Button.B, function () {
     TEXTO = "RESTASTE"
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    basic.showNumber(NUMERO1)
-    basic.showNumber(NUMERO_2)
-    basic.showString(TEXTO)
+    basic.showString(palabra)
 })
 let TEXTO = ""
+let NUMERO1 = 0
 let MULTIPLICACION = 0
 let RESTA = 0
 let SUMA = 0
 let NUMERO_2 = 0
-let NUMERO1 = 0
-NUMERO1 = randint(1, 5)
+let palabra = ""
+palabra = "papaya"
 NUMERO_2 = randint(1, 5)
 SUMA = 0
 RESTA = 0
 MULTIPLICACION = 0
-TEXTO = ""
 basic.forever(function () {
 	
 })
